@@ -18,7 +18,7 @@ Endpoint with a summary of the top-ranking holders of Eco Points on Discord.
 
 Make sure to replace `USER_ID` with the user ID you want to retrieve the summary.
 
-```https://api.ecoatlas.io/discord/USER_ID```
+```https://api.ecoatlas.io/discord/user/USER_ID```
 
 Endpoint with a full summary of a user ID on Discord. Make sure to replace USER_ID with the user ID you want to retrieve the information.
 
@@ -27,8 +27,8 @@ Endpoint with a full summary of a user ID on Discord. Make sure to replace USER_
 
 Endpoint with account balances of the top-ranking holders of Eco Points on Discord.
 
-```https://api.ecoatlas.io/discord/points/leaderboard```
+```https://api.ecoatlas.io/discord/leaderboard/points```
 
 Change the last `number` of the endpoint with the amount of top balances from users you want to retrieve.
 
-```https://api.ecoatlas.io/discord/points/USER_ID```
+```https://api.ecoatlas.io/discord/user/USER_ID/points```
