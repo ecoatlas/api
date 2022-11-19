@@ -9,7 +9,8 @@ router.get('/discord', passport.authenticate('discord'), (req, res) =>
 
 router.get('/discord/redirect', passport.authenticate('discord'), (req, res) =>
   // to update when frontend is done
-  res.send({ msg: 'Success' })
+  // res.send({ msg: 'Success' })
+  res.redirect(`${ATLAS_URL}/dashboard`)
 );
 
 router.get('/status', (req, res) => {

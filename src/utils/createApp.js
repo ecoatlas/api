@@ -16,7 +16,7 @@ export default function createApp() {
   app.use(express.urlencoded())
   app.use(
     cors({
-      origin: [process.env.DOMAIN],
+      origin: [process.env.ATLAS_API],
       credentials: true
     })
   )
